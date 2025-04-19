@@ -23,4 +23,18 @@ public class sortAndSearch01 {
             System.out.println("Data dengan NIM " + nim + " tidak ditemukan.");
         }
     }
+
+    public static void cariByNama(penilaian01[] data, String nama) {
+        boolean kondisi = false;
+        for (penilaian01 p : data) {
+            if (p.mahasiswa.nama.equalsIgnoreCase(nama)) {
+                p.tampilNilai();
+                kondisi = true;
+            }
+        }
+
+        if (!kondisi) {
+            System.out.println("Data dengan nama \"" + nama + "\" tidak ditemukan.");
+        }
+    }
 }

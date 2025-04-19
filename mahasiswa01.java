@@ -10,3 +10,4 @@ public class mahasiswa01 {
     void tampilMahasiswa() {
         System.out.println("NIM: " + NIM + ", " + "Nama: " + nama + ", " + "Prodi: " + prodi);
     }
+}
