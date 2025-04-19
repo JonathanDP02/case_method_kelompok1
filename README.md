@@ -2,4 +2,4 @@
 Kelompok 1
 - Gilang Bayu Irwana
 - Jonathan Dwi Pangestu
-- Wawa Ellent Irawanti
+- Wawa Elent Irawanti
