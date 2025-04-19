@@ -10,4 +10,31 @@ public class sortAndSearch01 {
             }
         }
     }
+    
+    public static void cariByNIM(penilaian01[] data, String nim) {
+        boolean kondisi = false;
+        for (penilaian01 p : data) {
+            if (p.mahasiswa.NIM.equalsIgnoreCase(nim)) {
+                p.tampilNilai();
+                kondisi = true;
+            }
+        }
+        if (!kondisi) {
+            System.out.println("Data dengan NIM " + nim + " tidak ditemukan.");
+        }
+    }
+
+    public static void cariByNama(penilaian01[] data, String nama) {
+        boolean kondisi = false;
+        for (penilaian01 p : data) {
+            if (p.mahasiswa.nama.equalsIgnoreCase(nama)) {
+                p.tampilNilai();
+                kondisi = true;
+            }
+        }
+
+        if (!kondisi) {
+            System.out.println("Data dengan nama \"" + nama + "\" tidak ditemukan.");
+        }
+    }
 }

@@ -15,5 +15,6 @@ public class main01 {
             new mataKuliah01("MK002", "Basis Data", 3),
             new mataKuliah01("MK003", "Desain Web", 3)
         };
+
     }
 }
