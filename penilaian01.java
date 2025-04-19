@@ -19,4 +19,3 @@ public class penilaian01 {
         hitungNilaiAkhir();
         System.out.println(mahasiswa.nama + ", " + matkul.namaMK + ", " + "Nilai Akhir: " + nilaiAkhir );
     }
-}
