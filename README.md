@@ -1,2 +1,5 @@
 # case_method_kelompok1
-Bismillah
+Kelompok 1
+- Gilang Bayu Irwana
+- Jonathan Dwi Pangestu
+- Wawa Ellent Irawanti
