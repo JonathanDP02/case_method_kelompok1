@@ -9,5 +9,12 @@ public class main01 {
             new mahasiswa01("22002", "Budi Santoso", "Informatika"),
             new mahasiswa01("22003", "Citra Dewi", "Sistem Informasi Bisnis")
         };
+
+        mataKuliah01[] mk = {
+            new mataKuliah01("MK001", "Struktur Data", 3),
+            new mataKuliah01("MK002", "Basis Data", 3),
+            new mataKuliah01("MK003", "Desain Web", 3)
+        };
+
     }
 }
