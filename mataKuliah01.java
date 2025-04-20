@@ -10,6 +10,6 @@ public class mataKuliah01 {
     }
 
     void tampilMataKuliah() {
-        System.out.println("Kode MK: " + kodeMK + ", " + "Nama: " + namaMK + ", " + "SKS: " + sks);
+        System.out.println("Kode MK  |  " + kodeMK + "  |  Nama: " + namaMK + "  |  SKS: " + sks + "  |");
     }
 }

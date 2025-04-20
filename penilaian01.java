@@ -17,6 +17,6 @@ public class penilaian01 {
     
     void tampilNilai() {
         hitungNilaiAkhir();
-        System.out.println(mahasiswa.nama + ", " + matkul.namaMK + ", " + "Nilai Akhir: " + nilaiAkhir );
+        System.out.println("|  " + mahasiswa.nama + "  |  " + matkul.namaMK + "  |  " + "Nilai Akhir: " + nilaiAkhir + "  |");
     }
 }
