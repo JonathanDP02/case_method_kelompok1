@@ -1,5 +1,4 @@
 public class mataKuliah01 {
-     
     String kodeMK, namaMK;
     int sks;
 
@@ -10,6 +9,6 @@ public class mataKuliah01 {
     }
 
     void tampilMataKuliah() {
-        System.out.println("Kode MK  |  " + kodeMK + "  |  Nama: " + namaMK + "  |  SKS: " + sks + "  |");
+        System.out.printf("| %-8s | %-20s | %-3d |\n", kodeMK, namaMK, sks);
     }
 }

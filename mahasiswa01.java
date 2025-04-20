@@ -8,6 +8,6 @@ public class mahasiswa01 {
     }
 
     void tampilMahasiswa() {
-        System.out.println("NIM  |  " + NIM + "  |  Nama: " + nama + "  |  Prodi: " + prodi + "  |");
+        System.out.printf("| %-10s | %-15s | %-25s |\n", NIM, nama, prodi);
     }
 }
